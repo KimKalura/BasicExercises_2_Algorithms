@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+public class StringExercises {
+
+    public static void main(String[] args) {
+//Write a program to display the character from a certain index in the String.
+        computeLength();
+
+        getChar();
+
+        computeReversed();
+
+        boolean isPalindrom = isPalindrom("ana");
+        System.out.println(isPalindrom);
+    }
+
+    public static void computeLength() {
+        Scanner console = new Scanner(System.in);
+        System.out.println("Enter a text");
+        String text = console.nextLine();
+        int length = text.length();
+        System.out.println("The length is: " + length);
+    }
+
+
+    public static void getChar() {
+        Scanner console = new Scanner(System.in);
+        System.out.println("Enter a text");
+        String text = console.nextLine();
+        System.out.println("Enter the index");
+        int index = console.nextInt();
+        char character = text.charAt(index);
+        System.out.println("The character from the position " + index + " is " + character);
+    }
+
+
+//Do you want when the user enters a password to the account, to enter it reversed in the database, so that it cannot be read by someone else.
+//Write a program that reverses a word.
+//Example: string word= "avaJ", it will be displayed in the "Java" console
+//Use the reverse function, then solve the problem without using the reverse() method.
+    public static void computeReversed() {
+        Scanner console = new Scanner(System.in);
+        System.out.println("Enter the word you want to reverse: ");
+        String word = console.nextLine();
+        String reversedWord = reversedString(word);
+        System.out.println("The reversed word is: " + reversedWord);
+    }
+
+    public static String reversedString(String word) {
+        String reversed = " ";
+
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversed = reversed + word.charAt(i);
+        }
+        return reversed;
+    }
+
+
+//Write a program that checks if a word is a palindrome
+    public static boolean isPalindrom(String word) {
+        boolean isPalindrom = false;
+        String reverseString = "";
+
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reverseString = reverseString + word.charAt(i);
+        }
+        System.out.println(reverseString);
+        if (word.equals(reverseString)) {
+            isPalindrom = true;
+        }
+        return isPalindrom;
+    }
+}
