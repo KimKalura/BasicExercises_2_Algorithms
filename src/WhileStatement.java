@@ -13,24 +13,24 @@ public class WhileStatement {
 
 //Write a program to display the sum of numbers from 1 to 10.
 
-        int i = 1;
+        /*int i = 1;
         int sum = 0;
         while (i <= 10) {
             System.out.println(i);
             sum = sum + i;
             i++;
         }
-        System.out.println("The sum of numbers from 1 to 10 is: " + sum);
+        System.out.println("The sum of numbers from 1 to 10 is: " + sum);*/
 
 //Write a program to display the even numbers from 1 to 10.
         //option 1
-        int i = 1;
+        /*int i = 1;
         while (i <= 10) {
             if (i % 2 == 0) {
                 System.out.println(i);
             }
             i++;
-        }
+        }*/
 
         //option 2
         /*int i = 2;
@@ -42,7 +42,7 @@ public class WhileStatement {
 //Write a program to display the sum of numbers divisible by 3, from the interval [1-n],
 // n being entered from the keyboard
 
-        Scanner console = new Scanner(System.in);
+        /*Scanner console = new Scanner(System.in);
         int n;
         System.out.print("Enter a number to find the sum of numbers divisible by 3:");
         n = console.nextInt();
@@ -55,7 +55,7 @@ public class WhileStatement {
             }
             i++;
         }
-        System.out.println(sum);
+        System.out.println(sum);*/
 
 
 //Write a program to reverse the digits of a number.

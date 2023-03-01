@@ -1,7 +1,7 @@
 public class Main1 {
     public static void main(String[] args) {
 
-        double newPrice = 20.99;
+        /*double newPrice = 20.99;
         double newPrice2 = 10.11;
         double totalPrice;
         totalPrice = newPrice + newPrice2;
@@ -22,7 +22,7 @@ public class Main1 {
         boolean isAA = isAvailable2 && isAffordable;
         System.out.println(isAA);
         System.out.println(isAffordable || isAvailable2);
-        System.out.println(!isAvailable2);
+        System.out.println(!isAvailable2);*/
 
 
         //VARIABLES AND DATA TYPES DEMO

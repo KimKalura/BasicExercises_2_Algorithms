@@ -1,4 +1,4 @@
-package bookApp;
+package libraryApp;
 
 public class Book {
     String title;

@@ -1,4 +1,4 @@
-package bookApp;
+package libraryApp;
 
 public class Library {
     Book[] bookList = new Book[100];
